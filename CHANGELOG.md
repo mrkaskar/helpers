@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kzinthant-d3v/helpers/compare/v1.0.3...v1.1.0) (2024-08-14)
+
+
+### Features
+
+* add eslint, prettier, test coverage ([5d96410](https://github.com/kzinthant-d3v/helpers/commit/5d96410e747209b68340860e677b4a5e057b1b4f))
+
 ## [1.0.3](https://github.com/kzinthant-d3v/helpers/compare/v1.0.2...v1.0.3) (2024-08-14)
 
 
