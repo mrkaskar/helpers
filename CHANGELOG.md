@@ -1,3 +1,10 @@
+# [1.2.0-beta.2](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2024-08-14)
+
+
+### Bug Fixes
+
+* fix docs workflow ([126a5f9](https://github.com/kzinthant-d3v/helpers/commit/126a5f906e831d5ed6ca251cf523f090700408db))
+
 # [1.2.0-beta.1](https://github.com/kzinthant-d3v/helpers/compare/v1.1.4...v1.2.0-beta.1) (2024-08-14)
 
 
