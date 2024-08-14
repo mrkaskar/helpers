@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/kzinthant-d3v/helpers/compare/v1.1.0...v1.1.1) (2024-08-14)
+
+
+### Bug Fixes
+
+* fix husky ([399152e](https://github.com/kzinthant-d3v/helpers/commit/399152e124ea3ac76bc98581add8fd4e6cd2dcf4))
+* fix husky bug ([f3a476e](https://github.com/kzinthant-d3v/helpers/commit/f3a476ec9c2b63d81602744333d4ff8256f4ce0c))
+
 # [1.1.0](https://github.com/kzinthant-d3v/helpers/compare/v1.0.3...v1.1.0) (2024-08-14)
 
 
