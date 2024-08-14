@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/kzinthant-d3v/helpers/compare/v1.1.3...v1.1.4) (2024-08-14)
+
+
+### Bug Fixes
+
+* ignore dist ([d100372](https://github.com/kzinthant-d3v/helpers/commit/d100372bdad44b37b5ecfc8e553cd1cc0ed062b3))
+
 ## [1.1.3](https://github.com/kzinthant-d3v/helpers/compare/v1.1.2...v1.1.3) (2024-08-14)
 
 
