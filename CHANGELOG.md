@@ -1,3 +1,26 @@
+# [1.2.0-beta.3](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.2...v1.2.0-beta.3) (2024-08-14)
+
+
+### Bug Fixes
+
+* do only for release branch ([ac53db0](https://github.com/kzinthant-d3v/helpers/commit/ac53db0375b06fd36fe2f4a72392c77a596ecb1c))
+
+# [1.2.0-beta.2](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2024-08-14)
+
+
+### Bug Fixes
+
+* fix docs workflow ([126a5f9](https://github.com/kzinthant-d3v/helpers/commit/126a5f906e831d5ed6ca251cf523f090700408db))
+
+# [1.2.0-beta.1](https://github.com/kzinthant-d3v/helpers/compare/v1.1.4...v1.2.0-beta.1) (2024-08-14)
+
+
+### Features
+
+* develop and release added to workflow ([a79fb62](https://github.com/kzinthant-d3v/helpers/commit/a79fb62c14aca146dc76742cc399dc441f4cd395))
+* develop work flow added ([db806ca](https://github.com/kzinthant-d3v/helpers/commit/db806cac4d910c387fc580b60da35373e0db605d))
+* promise handle function added ([f37e3bc](https://github.com/kzinthant-d3v/helpers/commit/f37e3bc910e172b2bd77eb3378d43d617fc679f6))
+
 ## [1.1.4](https://github.com/kzinthant-d3v/helpers/compare/v1.1.3...v1.1.4) (2024-08-14)
 
 
