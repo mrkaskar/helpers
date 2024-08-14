@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/kzinthant-d3v/helpers/compare/v1.1.2...v1.1.3) (2024-08-14)
+
+
+### Bug Fixes
+
+* stop tracking coverage ([73f8d21](https://github.com/kzinthant-d3v/helpers/commit/73f8d2133edd6ac615dd8db5390125622c21d053))
+
 ## [1.1.2](https://github.com/kzinthant-d3v/helpers/compare/v1.1.1...v1.1.2) (2024-08-14)
 
 
