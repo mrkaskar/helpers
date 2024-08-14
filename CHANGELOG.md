@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/kzinthant-d3v/helpers/compare/v1.0.0...v1.0.1) (2024-08-14)
+
+
+### Bug Fixes
+
+* trigger new release to match with npm ([e0a5fba](https://github.com/kzinthant-d3v/helpers/commit/e0a5fba5686f07bf28dfc01ff18abda7d6752794))
+* trigger new release to match with npm ([bf8adf3](https://github.com/kzinthant-d3v/helpers/commit/bf8adf3f1a1a0cab3f3cddea0de6eb3d3ea9d197))
+
 # 1.0.0 (2024-08-14)
 
 
