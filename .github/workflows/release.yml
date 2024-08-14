@@ -44,7 +44,7 @@ jobs:
             git checkout gh-pages
           fi
           rm -rf *
-          cp -r ../docs/* ./
+          cp -r docs/* ./
           git add .
           git commit -m "Deploy documentation [skip ci]"
           git push origin gh-pages
