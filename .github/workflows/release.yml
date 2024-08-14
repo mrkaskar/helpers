@@ -15,7 +15,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '20' 
           cache: 'npm'
 
       - name: Install dependencies
@@ -28,14 +28,46 @@ jobs:
         run: npx semantic-release
 
       - name: Deploy documentation
-        if: github.ref == 'refs/heads/main'
+        if: success() && github.ref == 'refs/heads/main'
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git clone --branch gh-pages https://github.com/$GITHUB_REPOSITORY.git gh-pages
-          cd gh-pages
+          git config --global user.name "kaskar"
+          git config --global user.email "k1000000000s@gmail.com"
+          git fetch origin
+      
+          # Create a temporary directory for the gh-pages work
+          mkdir gh-pages-temp
+          cd gh-pages-temp
+      
+          # Clone the gh-pages branch into this temporary directory
+          git clone --branch gh-pages https://github.com/${{ github.repository }}.git .
+      
+          # If the gh-pages branch does not exist, create it
+          if ! git rev-parse --verify origin/gh-pages; then
+            git checkout --orphan gh-pages
+            git rm -rf .
+            echo "GitHub Pages" > index.html
+            git add index.html
+            git commit -m "Initial commit for GitHub Pages"
+            git push origin gh-pages
+          else
+            git checkout gh-pages
+          fi
+      
+          # Clear the old content
           rm -rf *
+      
+          # Copy the new documentation from the main branch into this directory
           cp -r ../docs/* ./
+      
+          # Add and commit the new documentation
           git add .
           git commit -m "Deploy documentation [skip ci]"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push origin gh-pages
+      
+          # Clean up
+          cd ..
+          rm -rf gh-pages-temp  
+
+      
+        
