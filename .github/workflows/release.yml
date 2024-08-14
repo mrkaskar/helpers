@@ -30,8 +30,8 @@ jobs:
       - name: Deploy documentation
         if: success() && github.ref == 'refs/heads/main'
         run: |
-          git config user.name "kaskar"
-          git config user.email "k1000000000s@gmail.com"
+          git config --global user.name "kaskar"
+          git config --global user.email "k1000000000s@gmail.com"
           git fetch origin
       
           # Create a temporary directory for the gh-pages work
