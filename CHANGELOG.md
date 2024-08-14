@@ -1,3 +1,10 @@
+# [1.2.0-beta.3](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.2...v1.2.0-beta.3) (2024-08-14)
+
+
+### Bug Fixes
+
+* do only for release branch ([ac53db0](https://github.com/kzinthant-d3v/helpers/commit/ac53db0375b06fd36fe2f4a72392c77a596ecb1c))
+
 # [1.2.0-beta.2](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2024-08-14)
 
 
