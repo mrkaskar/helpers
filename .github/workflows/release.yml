@@ -62,6 +62,7 @@ jobs:
           # Add and commit the new documentation
           git add .
           git commit -m "Deploy documentation [skip ci]"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push origin gh-pages
       
           # Clean up
