@@ -27,16 +27,21 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
 
-      - name: Stash changes (if any)
-        run: |
-          git stash || true
-
       - name: Deploy documentation
         if: success() && github.ref == 'refs/heads/main'
         run: |
           git config user.name "kaskar"
           git config user.email "k1000000000s@gmail.com"
           git fetch origin
+      
+          # Create a temporary directory for the gh-pages work
+          mkdir gh-pages-temp
+          cd gh-pages-temp
+      
+          # Clone the gh-pages branch into this temporary directory
+          git clone --branch gh-pages https://github.com/${{ github.repository }}.git .
+      
+          # If the gh-pages branch does not exist, create it
           if ! git rev-parse --verify origin/gh-pages; then
             git checkout --orphan gh-pages
             git rm -rf .
@@ -47,8 +52,21 @@ jobs:
           else
             git checkout gh-pages
           fi
+      
+          # Clear the old content
           rm -rf *
-          cp -r docs/* ./
+      
+          # Copy the new documentation from the main branch into this directory
+          cp -r ../docs/* ./
+      
+          # Add and commit the new documentation
           git add .
           git commit -m "Deploy documentation [skip ci]"
           git push origin gh-pages
+      
+          # Clean up
+          cd ..
+          rm -rf gh-pages-temp  
+
+      
+        
