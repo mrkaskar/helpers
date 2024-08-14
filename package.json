@@ -3,6 +3,10 @@
   "version": "1.2.0-beta.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "./array": "./dist/array/index.js",
+    "./promise": "./dist/promise/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "docs": "typedoc",
