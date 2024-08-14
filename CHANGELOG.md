@@ -1,3 +1,54 @@
+## [1.1.3](https://github.com/kzinthant-d3v/helpers/compare/v1.1.2...v1.1.3) (2024-08-14)
+
+
+### Bug Fixes
+
+* stop tracking coverage ([73f8d21](https://github.com/kzinthant-d3v/helpers/commit/73f8d2133edd6ac615dd8db5390125622c21d053))
+
+## [1.1.2](https://github.com/kzinthant-d3v/helpers/compare/v1.1.1...v1.1.2) (2024-08-14)
+
+
+### Bug Fixes
+
+* stop tracking coverage ([79839bb](https://github.com/kzinthant-d3v/helpers/commit/79839bba91ce4022448a2ad18397d52e2179a0a6))
+
+## [1.1.1](https://github.com/kzinthant-d3v/helpers/compare/v1.1.0...v1.1.1) (2024-08-14)
+
+
+### Bug Fixes
+
+* fix husky ([399152e](https://github.com/kzinthant-d3v/helpers/commit/399152e124ea3ac76bc98581add8fd4e6cd2dcf4))
+* fix husky bug ([f3a476e](https://github.com/kzinthant-d3v/helpers/commit/f3a476ec9c2b63d81602744333d4ff8256f4ce0c))
+
+# [1.1.0](https://github.com/kzinthant-d3v/helpers/compare/v1.0.3...v1.1.0) (2024-08-14)
+
+
+### Features
+
+* add eslint, prettier, test coverage ([5d96410](https://github.com/kzinthant-d3v/helpers/commit/5d96410e747209b68340860e677b4a5e057b1b4f))
+
+## [1.0.3](https://github.com/kzinthant-d3v/helpers/compare/v1.0.2...v1.0.3) (2024-08-14)
+
+
+### Bug Fixes
+
+* change to generate docs only after semantic release ([0574b9f](https://github.com/kzinthant-d3v/helpers/commit/0574b9fe64a4df1f33aac82682ebc70882b3edb0))
+
+## [1.0.2](https://github.com/kzinthant-d3v/helpers/compare/v1.0.1...v1.0.2) (2024-08-14)
+
+
+### Bug Fixes
+
+* prevent workflow from failing if docs is not changed ([dd7b03c](https://github.com/kzinthant-d3v/helpers/commit/dd7b03c05c9d3ea4d29f5b6a5fb52f42beb74be1))
+
+## [1.0.1](https://github.com/kzinthant-d3v/helpers/compare/v1.0.0...v1.0.1) (2024-08-14)
+
+
+### Bug Fixes
+
+* trigger new release to match with npm ([e0a5fba](https://github.com/kzinthant-d3v/helpers/commit/e0a5fba5686f07bf28dfc01ff18abda7d6752794))
+* trigger new release to match with npm ([bf8adf3](https://github.com/kzinthant-d3v/helpers/commit/bf8adf3f1a1a0cab3f3cddea0de6eb3d3ea9d197))
+
 # 1.0.0 (2024-08-14)
 
 

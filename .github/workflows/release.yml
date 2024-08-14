@@ -19,13 +19,16 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
-
+        run: npm install --legacy-peer-deps
+      
       - name: Run Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+
+      - name: Generate updated documentation
+        run: npm run docs
 
       - name: Deploy documentation
         if: success() && github.ref == 'refs/heads/main'
@@ -61,13 +64,15 @@ jobs:
       
           # Add and commit the new documentation
           git add .
-          git commit -m "Deploy documentation [skip ci]"
-          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push origin gh-pages
+          # Check if there are any changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Deploy documentation [skip ci]"
+            git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git push origin gh-pages
+          fi
       
           # Clean up
           cd ..
           rm -rf gh-pages-temp  
-
-      
-        

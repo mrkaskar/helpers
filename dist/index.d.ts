@@ -1,2 +1,2 @@
-export { add } from './add';
-export { multiply } from './multiply';
+export * from './arrays';
+//# sourceMappingURL=index.d.ts.map
