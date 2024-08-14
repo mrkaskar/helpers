@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/kzinthant-d3v/helpers/compare/v1.0.2...v1.0.3) (2024-08-14)
+
+
+### Bug Fixes
+
+* change to generate docs only after semantic release ([0574b9f](https://github.com/kzinthant-d3v/helpers/commit/0574b9fe64a4df1f33aac82682ebc70882b3edb0))
+
 ## [1.0.2](https://github.com/kzinthant-d3v/helpers/compare/v1.0.1...v1.0.2) (2024-08-14)
 
 
