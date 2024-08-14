@@ -21,14 +21,14 @@ jobs:
       - name: Install dependencies
         run: npm install
       
-      - name: Generate updated documentation
-        run: npm run docs
-
       - name: Run Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+
+      - name: Generate updated documentation
+        run: npm run docs
 
       - name: Deploy documentation
         if: success() && github.ref == 'refs/heads/main'
