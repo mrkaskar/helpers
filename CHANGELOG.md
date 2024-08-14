@@ -1,3 +1,10 @@
+# [1.2.0-beta.4](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.3...v1.2.0-beta.4) (2024-08-14)
+
+
+### Features
+
+* differentiate each module ([7ba36e6](https://github.com/kzinthant-d3v/helpers/commit/7ba36e613508735119b6aae59a9c6a15611f0e63))
+
 # [1.2.0-beta.3](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.2...v1.2.0-beta.3) (2024-08-14)
 
 
