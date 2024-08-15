@@ -1,3 +1,10 @@
+# [1.2.0-beta.5](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.4...v1.2.0-beta.5) (2024-08-15)
+
+
+### Bug Fixes
+
+* build bug ([f4c745c](https://github.com/kzinthant-d3v/helpers/commit/f4c745cd318fb8c41dbd235dfa56b609d4ad97b5))
+
 # [1.2.0-beta.4](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.3...v1.2.0-beta.4) (2024-08-14)
 
 
