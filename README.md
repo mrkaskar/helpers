@@ -1,0 +1,1 @@
+# Helper functions to use in any node project
