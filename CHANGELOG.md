@@ -1,3 +1,77 @@
+# [1.2.0-rc.2](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-rc.1...v1.2.0-rc.2) (2024-08-15)
+
+
+### Bug Fixes
+
+* build bug ([f4c745c](https://github.com/kzinthant-d3v/helpers/commit/f4c745cd318fb8c41dbd235dfa56b609d4ad97b5))
+* fix dist path ([e2b906d](https://github.com/kzinthant-d3v/helpers/commit/e2b906d8c95d58569fc61691476f3ba885254396))
+* package ([63e3c53](https://github.com/kzinthant-d3v/helpers/commit/63e3c53c30570538c3a14a9cd8a1930810947632))
+* package version ([0e7af69](https://github.com/kzinthant-d3v/helpers/commit/0e7af6949c7d1e47e80e9a6ed384860b8fc5c00b))
+
+
+### Features
+
+* differentiate each module ([7ba36e6](https://github.com/kzinthant-d3v/helpers/commit/7ba36e613508735119b6aae59a9c6a15611f0e63))
+* merged with develop ([a9a483f](https://github.com/kzinthant-d3v/helpers/commit/a9a483fd4f894aea1709f488665423eb434a5da8))
+
+# [1.2.0-beta.8](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.7...v1.2.0-beta.8) (2024-08-15)
+
+
+### Bug Fixes
+
+* fix dist path ([e2b906d](https://github.com/kzinthant-d3v/helpers/commit/e2b906d8c95d58569fc61691476f3ba885254396))
+
+# [1.2.0-beta.7](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.6...v1.2.0-beta.7) (2024-08-15)
+
+
+### Bug Fixes
+
+* package ([63e3c53](https://github.com/kzinthant-d3v/helpers/commit/63e3c53c30570538c3a14a9cd8a1930810947632))
+
+# [1.2.0-beta.6](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.5...v1.2.0-beta.6) (2024-08-15)
+
+
+### Bug Fixes
+
+* package version ([0e7af69](https://github.com/kzinthant-d3v/helpers/commit/0e7af6949c7d1e47e80e9a6ed384860b8fc5c00b))
+
+# [1.2.0-beta.5](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.4...v1.2.0-beta.5) (2024-08-15)
+
+
+### Bug Fixes
+
+* build bug ([f4c745c](https://github.com/kzinthant-d3v/helpers/commit/f4c745cd318fb8c41dbd235dfa56b609d4ad97b5))
+
+# [1.2.0-beta.4](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.3...v1.2.0-beta.4) (2024-08-14)
+
+
+### Features
+
+* differentiate each module ([7ba36e6](https://github.com/kzinthant-d3v/helpers/commit/7ba36e613508735119b6aae59a9c6a15611f0e63))
+
+# [1.2.0-beta.3](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.2...v1.2.0-beta.3) (2024-08-14)
+
+
+### Bug Fixes
+
+* do only for release branch ([ac53db0](https://github.com/kzinthant-d3v/helpers/commit/ac53db0375b06fd36fe2f4a72392c77a596ecb1c))
+
+# [1.2.0-beta.2](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2024-08-14)
+
+
+### Bug Fixes
+
+* fix docs workflow ([126a5f9](https://github.com/kzinthant-d3v/helpers/commit/126a5f906e831d5ed6ca251cf523f090700408db))
+
+# [1.2.0-beta.1](https://github.com/kzinthant-d3v/helpers/compare/v1.1.4...v1.2.0-beta.1) (2024-08-14)
+
+
+### Features
+
+* develop and release added to workflow ([a79fb62](https://github.com/kzinthant-d3v/helpers/commit/a79fb62c14aca146dc76742cc399dc441f4cd395))
+* develop work flow added ([db806ca](https://github.com/kzinthant-d3v/helpers/commit/db806cac4d910c387fc580b60da35373e0db605d))
+* promise handle function added ([f37e3bc](https://github.com/kzinthant-d3v/helpers/commit/f37e3bc910e172b2bd77eb3378d43d617fc679f6))
+
 ## [1.1.4](https://github.com/kzinthant-d3v/helpers/compare/v1.1.3...v1.1.4) (2024-08-14)
 
 

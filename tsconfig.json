@@ -6,10 +6,9 @@
     "lib": [
       "ES2020",
     ], /* Specify library files to be included in the compilation. */
-    "allowJs": false, /* Disable to avoid including .js files in the project. */
+    "allowJs": true, /* Disable to avoid including .js files in the project. */
     "declaration": true, /* Generates corresponding '.d.ts' file. */
-    "isolatedModules": true,
-    "declarationMap": true, /* Create sourcemaps for d.ts files */
+    "isolatedModules": false,
     "sourceMap": true, /* Create source map files for emitted JavaScript files. */
     "outDir": "./dist", /* Redirect output structure to the directory. */
     "rootDir": "./src", /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
