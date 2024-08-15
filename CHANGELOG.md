@@ -1,3 +1,10 @@
+# [1.2.0-beta.6](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.5...v1.2.0-beta.6) (2024-08-15)
+
+
+### Bug Fixes
+
+* package version ([0e7af69](https://github.com/kzinthant-d3v/helpers/commit/0e7af6949c7d1e47e80e9a6ed384860b8fc5c00b))
+
 # [1.2.0-beta.5](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.4...v1.2.0-beta.5) (2024-08-15)
 
 
