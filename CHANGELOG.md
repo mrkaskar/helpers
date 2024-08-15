@@ -1,3 +1,10 @@
+# [1.2.0-rc.3](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-rc.2...v1.2.0-rc.3) (2024-08-15)
+
+
+### Bug Fixes
+
+* docs added back ([66cc285](https://github.com/kzinthant-d3v/helpers/commit/66cc285e03b35ea33e54ee97b4986eb80951e3c5))
+
 # [1.2.0-rc.2](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-rc.1...v1.2.0-rc.2) (2024-08-15)
 
 
