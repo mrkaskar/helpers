@@ -11,7 +11,7 @@
     "./promise": "./dist/promise/index.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --build --force",
     "docs": "typedoc",
     "test": "jest",
     "test:coverage": "jest --coverage --coverageThreshold '{\"global\": {\"branches\": 80, \"functions\": 80, \"lines\": 80, \"statements\": 80}}'",
