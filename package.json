@@ -8,7 +8,8 @@
   ],
   "exports": {
     "./array": "./dist/array/index.js",
-    "./promise": "./dist/promise/index.js"
+    "./promise": "./dist/promise/index.js",
+    ".": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc --build --force",
