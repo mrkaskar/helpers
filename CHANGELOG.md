@@ -1,3 +1,19 @@
+# [1.2.0-rc.2](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-rc.1...v1.2.0-rc.2) (2024-08-15)
+
+
+### Bug Fixes
+
+* build bug ([f4c745c](https://github.com/kzinthant-d3v/helpers/commit/f4c745cd318fb8c41dbd235dfa56b609d4ad97b5))
+* fix dist path ([e2b906d](https://github.com/kzinthant-d3v/helpers/commit/e2b906d8c95d58569fc61691476f3ba885254396))
+* package ([63e3c53](https://github.com/kzinthant-d3v/helpers/commit/63e3c53c30570538c3a14a9cd8a1930810947632))
+* package version ([0e7af69](https://github.com/kzinthant-d3v/helpers/commit/0e7af6949c7d1e47e80e9a6ed384860b8fc5c00b))
+
+
+### Features
+
+* differentiate each module ([7ba36e6](https://github.com/kzinthant-d3v/helpers/commit/7ba36e613508735119b6aae59a9c6a15611f0e63))
+* merged with develop ([a9a483f](https://github.com/kzinthant-d3v/helpers/commit/a9a483fd4f894aea1709f488665423eb434a5da8))
+
 # [1.2.0-beta.8](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.7...v1.2.0-beta.8) (2024-08-15)
 
 
