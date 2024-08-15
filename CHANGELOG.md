@@ -1,3 +1,10 @@
+# [1.2.0-beta.8](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.7...v1.2.0-beta.8) (2024-08-15)
+
+
+### Bug Fixes
+
+* fix dist path ([e2b906d](https://github.com/kzinthant-d3v/helpers/commit/e2b906d8c95d58569fc61691476f3ba885254396))
+
 # [1.2.0-beta.7](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-beta.6...v1.2.0-beta.7) (2024-08-15)
 
 
