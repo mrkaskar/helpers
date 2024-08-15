@@ -1,6 +1,6 @@
 {
   "name": "kas-helpers",
-  "version": "1.2.0-rc.2",
+  "version": "1.2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

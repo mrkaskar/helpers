@@ -1,3 +1,24 @@
+# [1.2.0](https://github.com/kzinthant-d3v/helpers/compare/v1.1.4...v1.2.0) (2024-08-15)
+
+
+### Bug Fixes
+
+* build bug ([f4c745c](https://github.com/kzinthant-d3v/helpers/commit/f4c745cd318fb8c41dbd235dfa56b609d4ad97b5))
+* do only for release branch ([ac53db0](https://github.com/kzinthant-d3v/helpers/commit/ac53db0375b06fd36fe2f4a72392c77a596ecb1c))
+* fix dist path ([e2b906d](https://github.com/kzinthant-d3v/helpers/commit/e2b906d8c95d58569fc61691476f3ba885254396))
+* fix docs workflow ([126a5f9](https://github.com/kzinthant-d3v/helpers/commit/126a5f906e831d5ed6ca251cf523f090700408db))
+* package ([63e3c53](https://github.com/kzinthant-d3v/helpers/commit/63e3c53c30570538c3a14a9cd8a1930810947632))
+* package version ([0e7af69](https://github.com/kzinthant-d3v/helpers/commit/0e7af6949c7d1e47e80e9a6ed384860b8fc5c00b))
+
+
+### Features
+
+* develop and release added to workflow ([a79fb62](https://github.com/kzinthant-d3v/helpers/commit/a79fb62c14aca146dc76742cc399dc441f4cd395))
+* develop work flow added ([db806ca](https://github.com/kzinthant-d3v/helpers/commit/db806cac4d910c387fc580b60da35373e0db605d))
+* differentiate each module ([7ba36e6](https://github.com/kzinthant-d3v/helpers/commit/7ba36e613508735119b6aae59a9c6a15611f0e63))
+* merged with develop ([a9a483f](https://github.com/kzinthant-d3v/helpers/commit/a9a483fd4f894aea1709f488665423eb434a5da8))
+* promise handle function added ([f37e3bc](https://github.com/kzinthant-d3v/helpers/commit/f37e3bc910e172b2bd77eb3378d43d617fc679f6))
+
 # [1.2.0-rc.2](https://github.com/kzinthant-d3v/helpers/compare/v1.2.0-rc.1...v1.2.0-rc.2) (2024-08-15)
 
 
